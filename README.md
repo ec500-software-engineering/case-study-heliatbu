@@ -12,8 +12,10 @@ React Native is fairly new, and becoming more popular.
 ## Testing
 Describe unit/integration/module tests and the test framework
 ### JavaScript
+
 #### Jest
 Jest tests are JavaScript-only tests run on the command line with node.
+
 #### Flow test
 
 ### Android
