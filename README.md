@@ -26,7 +26,7 @@ The Android unit tests do not run in an emulator.<br />It's a good idea to add a
 React Native provides facilities to make it easier to test integrated components that require both native and JS components to communicate across the bridge. The two main components are RCTTestRunner and RCTTestModule. RCTTestRunner sets up the ReactNative environment and provides facilities to run the tests as XCTestCases in Xcode (runTest:module is the simplest method). RCTTestModule is exported to JS as NativeModules.TestModule.
 
 ## Software architecture
-![](https://github.com/ec500-software-engineering/case-study-heliatbu/blob/master/pics/structure.png|width=300)
+![](https://github.com/ec500-software-engineering/case-study-heliatbu/blob/master/pics/structure.png)
 ## Defects
 
 ## Simple demonstration application
