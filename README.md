@@ -8,7 +8,7 @@ React Native only use JavaScript (JSX) to build mobile apps. As React, we can co
 <br /> But unlike web development in ReactJS, react native will not generate virtual DOM. It will only use the same fundamental UI building blocks as regular iOS and Android apps. Instead of using Swift, Kotlin or Java, we are putting those building blocks together using JavaScript and React.
 <br />
 React Native is fairly new, and becoming more popular.
-<img align="center" src="https://github.com/ec500-software-engineering/case-study-heliatbu/blob/master/pics/react%20native.jpg" 
+![](https://github.com/ec500-software-engineering/case-study-heliatbu/blob/master/pics/react%20native.jpg)
 ## Testing
 Describe unit/integration/module tests and the test framework
 ### JavaScript
