@@ -28,6 +28,9 @@ React Native provides facilities to make it easier to test integrated components
 ## Software architecture
 ![](https://github.com/ec500-software-engineering/case-study-heliatbu/blob/master/pics/structure.png)
 ## Defects
-
+1、Since React Native is cross-platform developing tool, there are many bugs on different platforms existing remaining to fix.
+<br/> 2、The support for old Android and IOS version is not good.
 ## Simple demonstration application
+![](https://github.com/ec500-software-engineering/case-study-heliatbu/blob/master/pics/demo.gif)
+
 
