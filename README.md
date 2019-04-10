@@ -8,7 +8,7 @@ React Native only use JavaScript (JSX) to build mobile apps. As React, we can co
 <br /> But unlike web development in ReactJS, react native will not generate virtual DOM. It will only use the same fundamental UI building blocks as regular iOS and Android apps. Instead of using Swift, Kotlin or Java, we are putting those building blocks together using JavaScript and React.
 <br />
 React Native is fairly new, and becoming more popular.
-<p align="center"><img src="https://github.com/ec500-software-engineering/case-study-heliatbu/blob/master/pics/react%20native.jpg" width="800"></p>
+<p align="center"><img src="https://github.com/ec500-software-engineering/case-study-heliatbu/blob/master/pics/react%20native.jpg" width="600"></p>
 ## Testing
 Describe unit/integration/module tests and the test framework
 ### JavaScript
@@ -26,7 +26,7 @@ The Android unit tests do not run in an emulator.<br />It's a good idea to add a
 React Native provides facilities to make it easier to test integrated components that require both native and JS components to communicate across the bridge. The two main components are RCTTestRunner and RCTTestModule. RCTTestRunner sets up the ReactNative environment and provides facilities to run the tests as XCTestCases in Xcode (runTest:module is the simplest method). RCTTestModule is exported to JS as NativeModules.TestModule.
 
 ## Software architecture
-<p align="center"><img src="https://github.com/ec500-software-engineering/case-study-heliatbu/blob/master/pics/structure.png" width="1000"></p>
+<p align="center"><img src="https://github.com/ec500-software-engineering/case-study-heliatbu/blob/master/pics/structure.png" width="700"></p>
 
 ## Defects
 1、Since React Native is cross-platform developing tool, there are many bugs on different platforms existing remaining to fix.
