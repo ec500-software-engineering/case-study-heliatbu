@@ -1,2 +1,2 @@
-# case-study-heliatbu
-Case Study: React Native
+# Case Study: React Native
+
