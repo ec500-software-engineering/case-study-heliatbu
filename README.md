@@ -9,6 +9,7 @@ React Native only use JavaScript (JSX) to build mobile apps. As React, we can co
 <br />
 React Native is fairly new, and becoming more popular.
 <p align="center"><img src="https://github.com/ec500-software-engineering/case-study-heliatbu/blob/master/pics/react%20native.jpg" width="600"></p>
+
 ## Testing
 Describe unit/integration/module tests and the test framework
 ### JavaScript
