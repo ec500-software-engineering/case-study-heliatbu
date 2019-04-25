@@ -15,7 +15,7 @@ Describe unit/integration/module tests and the test framework
 ### JavaScript
 
 #### Jest
-Jest tests are JavaScript-only tests run on the command line with node.
+Jest tests are JavaScript-only tests run on the command line with node. Built by Facebook as well.
 
 #### Flow test
 
@@ -29,11 +29,24 @@ The Android unit tests do not run in an emulator.<br />It's a good idea to add a
 React Native provides facilities to make it easier to test integrated components that require both native and JS components to communicate across the bridge. The two main components are RCTTestRunner and RCTTestModule. RCTTestRunner sets up the ReactNative environment and provides facilities to run the tests as XCTestCases in Xcode (runTest:module is the simplest method). RCTTestModule is exported to JS as NativeModules.TestModule.
 
 ## Software architecture
-<p align="center"><img src="https://github.com/ec500-software-engineering/case-study-heliatbu/blob/master/pics/structure.png" width="700"></p>
 
-## Defects
+<p align="center"><img src="https://github.com/ec500-software-engineering/case-study-heliatbu/blob/master/pics/structure.png" width="700"></p>
+Write the React code with building blocks of Native language, like <Text>, <View>, <TextInput>. Then render component to the Mobile phone for different platform.
+ 
+## Data flow
+Data Flow during app running:
+All about state change and React life cycle. Combined with Redux (State Manager for React Project) 
+
+## Compared with Flutter
+<br>Language: React JS for React Native.Dart for Flutter. Dart is compiled using C/C++, so it’s closer to machine language and gives better native performance.
+<br>Performance: Hard to say a winner
+<br>Extensions and Community: React Native is little bit better
+
+
+## Public feedback and Issuses
 1、Since React Native is cross-platform developing tool, there are many bugs on different platforms existing remaining to fix.
 <br/> 2、The support for old Android and IOS version is not good.
+
 ## Simple demonstration application
 Very simple to do list app demonstrated with React Native.
 <p align="center"><img src="https://github.com/ec500-software-engineering/case-study-heliatbu/blob/master/pics/demo.gif"></p>
