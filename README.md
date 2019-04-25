@@ -31,7 +31,7 @@ React Native provides facilities to make it easier to test integrated components
 ## Software architecture
 
 <p align="center"><img src="https://github.com/ec500-software-engineering/case-study-heliatbu/blob/master/pics/structure.png" width="700"></p>
-Write the React code with building blocks of Native language, like <Text>, <View>, <TextInput>. Then render component to the Mobile phone for different platform.
+Write the React code with building blocks of Native language, like Text, View, TextInput. Then render component to the Mobile phone for different platform.
  
 ## Data flow
 Data Flow during app running:
